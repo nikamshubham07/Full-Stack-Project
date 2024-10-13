@@ -14,8 +14,8 @@ const SignUp = () => {
 
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (e) => { 
+    e.preventDefault(); 
     fetch(api_base_url + "/signUp",{
       mode: "cors",
       method: "POST",
