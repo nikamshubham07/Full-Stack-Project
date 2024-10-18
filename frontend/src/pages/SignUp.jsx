@@ -4,11 +4,10 @@ import { api_base_url } from '../helper.js';
 
 const SignUp = () => {
 
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState(""); 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [pwd, setPwd] = useState("");
-
+  const [pwd, setPwd] = useState(""); 
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
 
