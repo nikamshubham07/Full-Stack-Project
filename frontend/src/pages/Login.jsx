@@ -11,7 +11,7 @@ const Login = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
 
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
